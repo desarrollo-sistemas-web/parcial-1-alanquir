@@ -5,4 +5,10 @@
 
 function esPar($num) {
     // Tu código aquí
+    if ($num % 2 == 0) {
+        return "Par";
+    } else {
+        return "Impar";
+    }
 }
+
